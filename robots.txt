@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://davidzchen.github.io/sitemap.xml 
