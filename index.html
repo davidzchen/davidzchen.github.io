@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: dzc
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <div class="blog-post">
+        <h2 class="blog-post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p class="blog-post-meta">
+          {{ post.date | date_to_string }}
+        </p>
+        {{ post.content }}
+      </div>
     {% endfor %}
-  </ul>
-</div>
