@@ -59,6 +59,11 @@ code {
 .highlight > pre > code {
   font-family: monospace, monospace;
 }
+.page-header {
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
 a:link,
 a:active,
 a:visited {
