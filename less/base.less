@@ -2,8 +2,12 @@
  * Globals
  */
 
+html, body {
+  height: 100%;
+}
+
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Computer Modern Serif', Georgia, "Times New Roman", Times, serif;
   color: #555;
 }
 
@@ -14,17 +18,70 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: 'Computer Modern Serif', Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
   color: #333;
 }
 
-/*
- * Override Bootstrap's default container.
- */
+h1 {
+  font-size: 24px;
+}
 
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+pre {
+  border: 0px !important;
+  border-radius: 0px !important;
+  overflow-x: auto;
+  color: @pre-foreground-color;
+  background-color: @pre-background-color;
+  code {
+    overflow-wrap: normal;
+    white-space: pre;
   }
 }
+
+a {
+  &:link,
+  &:active,
+  &:visited {
+    color: @link-color;
+  }
+  &:hover {
+    color: @link-active-color;
+    text-decoration: none;
+  }
+}
+
+.wrapper {
+  min-height: 100%;
+
+  .wrapper-content {
+    overflow: auto;
+    padding-bottom: 150px;
+  }
+}
+
+.footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 140px;
+  margin-top: -140px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+  color: #999;
+  padding: 40px 0;
+}
+

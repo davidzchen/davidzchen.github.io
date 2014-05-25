@@ -5,20 +5,25 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {% include masthead.html %}
-    <div class="container">
-      {% include title.html %}
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-          {{ content }}
-          <ul class="pager">
-            <li><a href="#">Previous</a></li>
-            <li><a href="#">Next</a></li>
-          </ul>
-        </div><!-- /.blog-main -->
-        {% include sidebar.html %}
-      </div><!-- /.row -->
-    </div><!-- /.container -->
+    <div class="wrapper">
+      <div class="wrapper-content">
+
+        <div class="container">
+          {% include title.html %}
+          <div class="row">
+            <div class="col-sm-8 blog-main">
+              {{ content }}
+              <ul class="pager">
+                <li class="previous"><a href="#">Previous</a></li>
+                <li class="next"><a href="#">Next</a></li>
+              </ul>
+            </div><!-- /.blog-main -->
+            {% include sidebar.html %}
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.wrapper-content -->
+    </div><!-- /.wrapper -->
+
     {% include footer.html %}
   </body>
 </html>
