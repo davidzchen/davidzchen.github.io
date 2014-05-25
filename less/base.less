@@ -45,10 +45,22 @@ pre {
   overflow-x: auto;
   color: @pre-foreground-color;
   background-color: @pre-background-color;
+  font-family: Liberation Mono, 'Liberation Mono', monospace, monospace;
   code {
     overflow-wrap: normal;
     white-space: pre;
   }
+}
+
+code {
+  font-family: 'Computer Modern Typewriter', monospace, monospace;
+  background: transparent;
+  font-size: 16px;
+  color: @code-color;
+}
+
+.highlight > pre > code {
+  font-family: monospace, monospace;
 }
 
 a {
@@ -72,6 +84,25 @@ a {
   }
 }
 
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+
+  > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    color: @pager-link-color;
+
+    &:hover {
+      background-color: transparent;
+      color: @link-active-color;
+    }
+  }
+}
+
 .footer {
   clear: both;
   position: relative;
@@ -83,5 +114,16 @@ a {
   border-top: 1px solid #e5e5e5;
   color: #999;
   padding: 40px 0;
+
+  a {
+    &:link,
+    &:active,
+    &:visited {
+      color: @footer-link-color;
+    }
+    &:hover {
+      color: @link-active-color;
+    }
+  }
 }
 
