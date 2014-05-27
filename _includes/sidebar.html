@@ -2,10 +2,9 @@
           <div class="sidebar-module">
             <h4>Topics</h4>
             <ol class="list-unstyled">
-              <li><a href="category/code.html">Code</a></li>
-              <li><a href="category/systems.html">Tech</a></li>
-              <li><a href="category/musings.html">Musings</a></li>
-              <li><a href="category/scratch.html">Scratch</a></li>
+            {% for cat in site.categories %}
+              <li><a href="category/{{ cat[0] }}.html">{{ cat[0] | capitalize }}</a></li>
+            {% endfor %}
             </ol>
           </div>
           <div class="sidebar-module">

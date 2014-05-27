@@ -44,20 +44,20 @@ pre {
   overflow-x: auto;
   color: #eff1f5;
   background-color: #343d46;
-  font-family: Liberation Mono, 'Liberation Mono', monospace, monospace;
+  font-family: 'Liberation Mono', monospace;
 }
 pre code {
   overflow-wrap: normal;
   white-space: pre;
 }
 code {
-  font-family: 'Computer Modern Typewriter', monospace, monospace;
+  font-family: 'Computer Modern Typewriter', monospace;
   background: transparent;
   font-size: 16px;
   color: #8fa1b3;
 }
 .highlight > pre > code {
-  font-family: monospace, monospace;
+  font-family: 'Liberation Mono', monospace;
 }
 .page-header {
   border: 0px;
