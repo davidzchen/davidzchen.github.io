@@ -9,7 +9,7 @@ I wanted the design of the blog to be minimalist and focused on the two primary 
 
 This blog makes use of two different typefaces. All text content on this blog uses Donald Knuth's iconic [Computer Modern Serif][computer-modern] font, applied using [@christianp][christianp]'s [CM web fonts][computer-modern-web]. All `inline code` is typeset in Computer Modern Typewriter.
 
-Code listings, on the other hand, use [Liberation Mono][liberation-mono] and is typeset against a dark background to contrast with the text discussion. I fell in love with the [Base16 Ocean][base16-ocean] color scheme by [Chris Kempson][chris-kempson] and have been using it as the color scheme for my terminal, Vim, and any other text editor or IDE I happen to use. As a result, the code listings on this blog would match the way they look in my editor.
+Code listings, on the other hand, use [Liberation Mono][liberation-mono] and is typeset against a subtly different background to contrast with the text discussion. I fell in love with the [Base16 Ocean][base16-ocean] color scheme by [Chris Kempson][chris-kempson] and have been using Base16 Ocean Dark as the color scheme for my terminal and Vim. For the code listings on this blog, I chose to use Base16 Ocean Light to complement the minimal look of the blog.
 
 {% highlight go %}
 func fibonacci(n int) int {

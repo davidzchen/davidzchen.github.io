@@ -42,8 +42,8 @@ pre {
   border: 0px !important;
   border-radius: 0px !important;
   overflow-x: auto;
-  color: #eff1f5;
-  background-color: #343d46;
+  color: #2b303b;
+  background-color: #eff1f5;
   font-family: 'Liberation Mono', monospace;
 }
 pre code {
