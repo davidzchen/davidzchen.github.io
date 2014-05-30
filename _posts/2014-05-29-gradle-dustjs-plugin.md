@@ -47,7 +47,7 @@ At build time, the `dustjs` task will compile your templates to JavaScript files
 dustc --name=template source/template.tl dest/template.js
 {% endhighlight %}
 
-Please check it out and feel free to open issues and pull requests.
+Please [check it out][gradle-dustjs-plugin] and feel free to open issues and pull requests.
 
 [linkedin-dustjs]: http://linkedin.github.io/dustjs/
 [dustjs-comparison]: http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more
