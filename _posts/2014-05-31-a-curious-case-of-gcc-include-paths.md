@@ -2,7 +2,7 @@
 layout: post
 title: "A Curious Case of GCC Include Paths"
 date: 2014-05-31 19:04:00
-categories: tech
+categories: cpp
 ---
 
 One time, I was building a large C++ codebase and encountered a number of compiler errors that appeared to be caused by constants defined in the system `<time.h>` not getting picked up. Curiously, it appeared that the `time.h` in the current source directory was being included instead, even though the include statement read:
