@@ -2,7 +2,7 @@
 layout: post
 title: "Gradle Dust.js Plugin"
 date: 2014-05-29 22:55:00
-categories: gradle
+categories: opensource
 ---
 
 [LinkedIn Dust.js][linkedin-dustjs] is a powerful, high-performance, and extensible front-end templating engine. Here is an excellent [article comparing Dust.js with other template engines][dustjs-comparison].

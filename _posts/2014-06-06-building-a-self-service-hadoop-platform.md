@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Self-Service Hadoop Platform at LinkedIn with Azkaban"
 date: 2014-06-06 04:46:34
-categories: azkaban
+categories: opensource
 ---
 
 At this year's [Hadoop Summit][hadoop-summit] in San Jose, CA, I gave a talk on Building a Self-Service Hadoop Platform at LinkedIn with Azkaban. [Azkaban][azkaban] is LinkedIn's open-source workflow manager first developed back in 2009 with a focus on ease of use. Over the years, Azkaban has grown from being just a workflow scheduler for Hadoop to being an integrated environment for Hadoop tools and the primary front-end to Hadoop at LinkedIn.
