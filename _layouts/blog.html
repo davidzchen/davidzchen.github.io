@@ -7,20 +7,34 @@
   <body>
     <div class="wrapper">
       <div class="wrapper-content">
+        <div class="blog-header">
+          <div class="container">
+            {% include title.html %}
+          </div>
+        </div>
 
         <div class="container">
-          {% include title.html %}
           <div class="row">
-            <div class="col-sm-8 blog-main">
+            <div class="col-sm-9 blog-main">
               {{ content }}
-              <ul class="pager">
-                <li class="previous"><a href="#">Previous</a></li>
-                <li class="next"><a href="#">Next</a></li>
-              </ul>
             </div><!-- /.blog-main -->
             {% include sidebar.html %}
           </div><!-- /.row -->
         </div><!-- /.container -->
+
+        <div class="pager-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <ul class="pager">
+                  <li class="previous"><a href="#">Previous</a></li>
+                  <li class="next"><a href="#">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div><!-- /.wrapper-content -->
     </div><!-- /.wrapper -->
 

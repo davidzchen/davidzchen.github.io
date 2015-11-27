@@ -10,33 +10,15 @@ body {
   color: #555;
 }
 h1,
-.h1,
 h2,
-.h2,
 h3,
-.h3,
 h4,
-.h4,
 h5,
-.h5,
-h6,
-.h6 {
-  margin-top: 5;
+h6 {
   font-family: 'Computer Modern Serif', Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
+  font-weight: 400;
   color: #333;
-}
-h1 {
-  font-size: 22px;
-}
-h2 {
-  font-size: 20px;
-}
-h3 {
-  font-size: 18px;
-}
-h4 {
-  font-size: 16px;
+  margin: 40px 0 15px 0;
 }
 p {
   margin-bottom: 15px;
@@ -46,9 +28,10 @@ pre {
   border: 0px !important;
   border-radius: 0px !important;
   overflow-x: auto;
-  color: #2b303b;
-  background-color: #eff1f5;
+  color: #eff1f5;
+  background-color: #343d46;
   font-family: 'Liberation Mono', monospace;
+  padding: 20px;
 }
 pre code {
   overflow-wrap: normal;
@@ -72,10 +55,10 @@ code {
 a:link,
 a:active,
 a:visited {
-  color: #bf616a;
+  color: #0277bd;
 }
 a:hover {
-  color: #ff0000;
+  color: #03a9f4;
   text-decoration: none;
 }
 .wrapper {
@@ -83,23 +66,28 @@ a:hover {
 }
 .wrapper .wrapper-content {
   overflow: auto;
-  padding-bottom: 150px;
+  padding-bottom: 140px;
 }
-.pager {
-  margin-bottom: 60px;
+.pager-wrapper {
+  background-color: #455a64;
+  margin-top: 40px;
+}
+.pager-wrapper .pager {
+  margin: 0;
   text-align: left;
 }
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
+.pager-wrapper .pager > li > a {
+  width: 50%;
+  padding: 25px 20px;
   text-align: center;
   border: 0;
   border-radius: 0;
-  color: #7d7d7d;
+  color: #eceff1;
+  background-color: #455a64;
 }
-.pager > li > a:hover {
-  background-color: transparent;
-  color: #ff0000;
+.pager-wrapper .pager > li > a:hover {
+  background-color: #546e7a;
+  color: #81d4fa;
 }
 .footer {
   clear: both;
@@ -108,67 +96,61 @@ a:hover {
   height: 140px;
   margin-top: -140px;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-  color: #999;
+  background-color: #37474f;
+  color: #eceff1;
   padding: 40px 0;
 }
 .footer a:link,
 .footer a:active,
 .footer a:visited {
-  color: #7d7d7d;
+  color: #b3e5fc;
 }
 .footer a:hover {
-  color: #ff0000;
-}
-/*
- * Masthead for nav
- */
-.blog-masthead {
-  float: right;
-  padding-top: 50px;
-}
-.blog-masthead .blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #000000;
-}
-.blog-masthead .blog-nav-item:hover,
-.blog-masthead .blog-nav-item:focus {
-  color: #ff0000;
-  text-decoration: none;
-}
-.blog-masthead .blog-nav-item.active {
-  color: #ff0000;
-  font-style: italic;
-}
-.header {
-  margin-bottom: 40px;
+  color: #4fc3f7;
 }
 .blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: #37474f;
 }
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 48px;
-  font-weight: normal;
+.blog-header .blog-title {
+  margin: 20px 0;
+  display: inline-block;
 }
-.blog-title a:link,
-.blog-title a:active,
-.blog-title a:visited {
-  color: #000000;
-}
-.blog-title a:hover {
-  color: #ff0000;
-}
-.blog-description {
+.blog-header .blog-title h1 {
   font-size: 20px;
-  color: #999;
+  font-weight: 400;
+  margin: 0;
+}
+.blog-header .blog-title h1 a:link,
+.blog-header .blog-title h1 a:active,
+.blog-header .blog-title h1 a:visited {
+  color: #eceff1;
+}
+.blog-header .blog-title h1 a:hover,
+.blog-header .blog-title h1 a:focus {
+  color: #81d4fa;
+  text-decoration: none;
+}
+.blog-header .blog-nav {
+  display: inline-block;
+  float: right;
+  margin: 20px 0;
+}
+.blog-header .blog-nav .blog-nav-item {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #eceff1;
+}
+.blog-header .blog-nav .blog-nav-item:hover,
+.blog-header .blog-nav .blog-nav-item:focus {
+  color: #81d4fa;
+  text-decoration: none;
+}
+.blog-header .blog-nav .blog-nav-item.active {
+  color: #81d4fa;
+  font-style: italic;
 }
 /*
  * Main column and sidebar layout
@@ -177,10 +159,17 @@ a:hover {
   font-size: 16px;
   line-height: 1.5;
 }
+.blog-sidebar {
+  padding-top: 40px;
+}
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin: 0 -15px 15px;
+  margin: 0 -15px 25px;
+  background-color: #e1f5fe;
+}
+.sidebar-module h4 {
+  margin-top: 20px;
 }
 .sidebar-module a:link,
 .sidebar-module a:active,
@@ -188,7 +177,7 @@ a:hover {
   color: #7d7d7d;
 }
 .sidebar-module a:hover {
-  color: #ff0000;
+  color: #03a9f4;
 }
 .sidebar-module-inset {
   padding: 15px;
@@ -207,8 +196,13 @@ a:hover {
   margin-bottom: 60px;
 }
 .blog-post-title {
+  margin-bottom: 20px;
+}
+.blog-post-title h1 {
   margin-bottom: 5px;
-  font-size: 26px;
+}
+.blog-post-title .blog-post-meta {
+  color: #999;
 }
 .blog-post-title a:link,
 .blog-post-title a:active,
@@ -216,11 +210,7 @@ a:hover {
   color: #000;
 }
 .blog-post-title a:hover {
-  color: #ff0000;
-}
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
+  color: #03a9f4;
 }
 /*
  * Callouts

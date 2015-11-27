@@ -1,32 +1,56 @@
-.header {
-  margin-bottom: 40px;
-}
-
 .blog-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+  margin-bottom: 20px;
+  background-color: @header-bg-color;
 
-.blog-title {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 48px;
-  font-weight: normal;
-  a {
-    &:link,
-    &:active,
-    &:visited {
-      color: #000000;
-    }
-    &:hover {
-      color: @link-active-color;
+  .blog-title {
+    margin: 20px 0;
+    display: inline-block;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0;
+
+      a {
+        &:link,
+        &:active,
+        &:visited {
+          color: @header-color;
+        }
+
+        &:hover,
+        &:focus {
+          color: @header-active-color;
+          text-decoration: none;
+        }
+      }
     }
   }
-}
 
-.blog-description {
-  font-size: 20px;
-  color: #999;
+  .blog-nav {
+    display: inline-block;
+    float: right;
+    margin: 20px 0;
+
+    .blog-nav-item {
+      display: inline-block;
+      margin: 0 0 0 40px;
+      font-size: 18px;
+      font-weight: 300;
+      color: @header-color;
+
+      &:hover,
+      &:focus {
+        color: @header-active-color;
+        text-decoration: none;
+      }
+
+      &.active {
+        color: @header-active-color;
+        font-style: italic;
+      }
+    }
+  }
 }
 
 /*
@@ -37,10 +61,19 @@
   line-height: 1.5;
 }
 
+.blog-sidebar {
+  padding-top: 40px;
+}
+
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;
-  margin: 0 -15px 15px;
+  margin: 0 -15px 25px;
+  background-color: @sidebar-module-color;
+
+  h4 {
+    margin-top: 20px;
+  }
 
   a {
     &:link,
@@ -75,8 +108,15 @@
 }
 
 .blog-post-title {
-  margin-bottom: 5px;
-  font-size: 26px;
+  margin-bottom: 20px;
+
+  h1 {
+    margin-bottom: 5px;
+  }
+
+  .blog-post-meta {
+    color: #999;
+  }
 
   a {
     &:link,
@@ -88,9 +128,4 @@
       color: @link-active-color;
     }
   }
-}
-
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
 }

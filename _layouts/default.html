@@ -7,11 +7,15 @@
   <body>
     <div class="wrapper">
       <div class="wrapper-content">
+        <div class="blog-header">
+          <div class="container">
+            {% include title.html %}
+          </div>
+        </div>
 
         <div class="container">
-          {% include title.html %}
           <div class="row">
-            <div class="col-sm-8 blog-main">
+            <div class="col-sm-9 blog-main">
               {{ content }}
             </div><!-- /.blog-main -->
             {% include sidebar.html %}

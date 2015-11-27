@@ -11,32 +11,16 @@ body {
   color: #555;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  margin-top: 5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
   font-family: 'Computer Modern Serif', Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
+  font-weight: 400;
   color: #333;
-}
-
-h1 {
-  font-size: 22px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-h4 {
-  font-size: 16px;
+  margin: 40px 0 15px 0;
 }
 
 p {
@@ -51,6 +35,7 @@ pre {
   color: @pre-foreground-color;
   background-color: @pre-background-color;
   font-family: 'Liberation Mono', monospace;
+  padding: 20px;
   code {
     overflow-wrap: normal;
     white-space: pre;
@@ -92,25 +77,31 @@ a {
 
   .wrapper-content {
     overflow: auto;
-    padding-bottom: 150px;
+    padding-bottom: 140px;
   }
 }
 
-.pager {
-  margin-bottom: 60px;
-  text-align: left;
+.pager-wrapper {
+  background-color: @pager-bg-color;
+  margin-top: 40px;
 
-  > li > a {
-    width: 140px;
-    padding: 10px 20px;
-    text-align: center;
-    border: 0;
-    border-radius: 0;
-    color: @pager-link-color;
+  .pager {
+    margin: 0;
+    text-align: left;
 
-    &:hover {
-      background-color: transparent;
-      color: @link-active-color;
+    > li > a {
+      width: 50%;
+      padding: 25px 20px;
+      text-align: center;
+      border: 0;
+      border-radius: 0;
+      color: @pager-link-color;
+      background-color: @pager-bg-color;
+
+      &:hover {
+        background-color: @pager-hover-bg-color;
+        color: @pager-link-hover-color;
+      }
     }
   }
 }
@@ -122,9 +113,9 @@ a {
   height: 140px;
   margin-top: -140px;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-  color: #999;
+
+  background-color: @footer-bg-color;
+  color: @footer-color;
   padding: 40px 0;
 
   a {
@@ -133,8 +124,9 @@ a {
     &:visited {
       color: @footer-link-color;
     }
+
     &:hover {
-      color: @link-active-color;
+      color: @footer-link-active-color;
     }
   }
 }
