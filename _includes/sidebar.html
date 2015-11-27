@@ -3,7 +3,7 @@
             <h4>Topics</h4>
             <ol class="list-unstyled">
             {% for cat in site.categories %}
-              <li><a href="category/{{ cat[0] }}.html">{{ cat[0] | capitalize }}</a></li>
+              <li><a href="/category/{{ cat[0] }}.html">{{ cat[0] | capitalize }}</a></li>
             {% endfor %}
             </ol>
           </div>
