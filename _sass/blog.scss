@@ -1,6 +1,6 @@
 .blog-header {
   margin-bottom: 20px;
-  background-color: @header-bg-color;
+  background-color: $header-bg-color;
 
   .blog-title {
     margin: 20px 0;
@@ -15,12 +15,12 @@
         &:link,
         &:active,
         &:visited {
-          color: @header-color;
+          color: $header-color;
         }
 
         &:hover,
         &:focus {
-          color: @header-active-color;
+          color: $header-active-color;
           text-decoration: none;
         }
       }
@@ -37,16 +37,16 @@
       margin: 0 0 0 40px;
       font-size: 18px;
       font-weight: 300;
-      color: @header-color;
+      color: $header-color;
 
       &:hover,
       &:focus {
-        color: @header-active-color;
+        color: $header-active-color;
         text-decoration: none;
       }
 
       &.active {
-        color: @header-active-color;
+        color: $header-active-color;
         font-style: italic;
       }
     }
@@ -70,7 +70,7 @@
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 25px;
-  background-color: @sidebar-module-color;
+  background-color: $sidebar-module-color;
 
   h4 {
     margin-top: 20px;
@@ -80,11 +80,11 @@
     &:link,
     &:active,
     &:visited {
-      color: @sidebar-link-color;
+      color: $sidebar-link-color;
     }
 
     &:hover {
-      color: @link-active-color;
+      color: $link-active-color;
     }
   }
 }
@@ -105,7 +105,7 @@
  * Blog posts
  */
 .blog-post {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .blog-post-title {
@@ -126,7 +126,7 @@
       color: #000;
     }
     &:hover {
-      color: @link-active-color;
+      color: $link-active-color;
     }
   }
 }

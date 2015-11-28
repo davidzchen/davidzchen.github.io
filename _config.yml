@@ -1,3 +1,5 @@
 name: dzc
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
+sass:
+  sass_dir: _sass
