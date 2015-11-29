@@ -20,7 +20,13 @@
                 <div class="blog-post">
                   <div class="blog-post-title">
                     <h1>{{ page.title }}</h1>
-                    <p class="blog-post-meta">{{ page.date | date_to_string }}</p>
+                    <p class="blog-post-meta">
+                      {{ page.date | date_to_string }}
+                      in
+                      {% for category in page.categories %}
+                        <a href="/category/{{ category }}.html">{{ category }}</a>
+                      {% endfor %}
+                    </p>
                   </div>
                   {{ content }}
                 </div>

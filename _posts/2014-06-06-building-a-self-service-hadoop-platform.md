@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Self-Service Hadoop Platform at LinkedIn with Azkaban"
 date: 2014-06-06 04:46:34
-categories: opensource
+categories: tech
 ---
 
 At this year's [Hadoop Summit][hadoop-summit] in San Jose, CA, I gave a talk on

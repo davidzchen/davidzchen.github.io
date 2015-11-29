@@ -117,6 +117,18 @@
 
   .blog-post-meta {
     color: #999;
+
+    a {
+      &:link,
+      &:active,
+      &:visited {
+        color: $link-color;
+      }
+
+      &:hover {
+        color: $link-active-color;
+      }
+    }
   }
 
   a {
@@ -125,6 +137,7 @@
     &:visited {
       color: #000;
     }
+
     &:hover {
       color: $link-active-color;
     }

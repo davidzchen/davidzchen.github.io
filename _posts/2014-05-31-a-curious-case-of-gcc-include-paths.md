@@ -2,7 +2,7 @@
 layout: post
 title: "A Curious Case of GCC Include Paths"
 date: 2014-05-31 19:04:00
-categories: cpp
+categories: tech
 ---
 
 One time, I was building a large C++ codebase and encountered a number of

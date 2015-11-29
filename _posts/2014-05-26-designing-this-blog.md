@@ -2,7 +2,7 @@
 layout: post
 title: "Designing this Blog"
 date:   2014-05-26 20:13:24
-categories: notes
+categories: meta
 ---
 
 I wanted the design of the blog to be minimalist and focused on the two primary
