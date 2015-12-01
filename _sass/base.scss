@@ -75,12 +75,81 @@ a {
   }
 }
 
+.navbar {
+  min-height: 64px;
+}
+
+.navbar-inverse {
+  margin-bottom: 0;
+  background-color: $header-bg-color;
+  border-bottom: 1px solid $header-bg-color;
+
+  a.navbar-brand {
+    font-size: 20px;
+    padding: 22px 15px;
+
+    &:link,
+    &:active,
+    &:visited {
+      color: $header-color;
+    }
+
+    &:focus,
+    &:hover {
+      color: $header-active-color;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-nav > li > a {
+    color: $header-color;
+    font-size: 18px;
+    padding: 22px;
+
+    &:focus,
+    &:hover {
+      color: $header-active-color;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-nav > li.active > a {
+    background-color: $header-bg-color;
+    color: $header-active-color;
+    font-style: italic;
+
+    &:focus,
+    &:hover {
+      background-color: $header-bg-color;
+      color: $header-active-color;
+      font-style: italic;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-toggle {
+    border: 1px solid $header-bg-color;
+    margin-top: 15px;
+
+    &.active,
+    &:focus,
+    &:hover {
+      background-color: $header-hover-bg-color;
+    }
+  }
+
+  .navbar-collapse {
+    border-color: $header-bg-color;
+  }
+}
+
 .wrapper {
   min-height: 100%;
 
   .wrapper-content {
     overflow: auto;
     padding-bottom: 140px;
+    padding-top: 65px;
   }
 }
 
