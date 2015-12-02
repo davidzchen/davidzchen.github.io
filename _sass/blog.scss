@@ -88,3 +88,31 @@
     }
   }
 }
+
+.nav-tabs-code {
+  background-color: #4f5b66;
+  border-bottom: 1px solid #4f5b66;
+
+  li > a {
+    border-radius: 0;
+    color: #ECEFF1;
+
+    &:hover {
+      background-color: #4f5b66;
+      border: 1px solid #4f5b66;
+      color: #81D4FA;
+    }
+  }
+
+  li.active > a {
+    &:link,
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: #343d46;
+      border: 1px solid #343d46;
+      color: #81D4FA;
+      font-style: italic;
+    }
+  }
+}
