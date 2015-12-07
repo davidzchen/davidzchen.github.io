@@ -1,6 +1,6 @@
 ---
 layout: tiles
-title: tiles attach
+title: "tiles / tiles attach"
 nav: projects
 ---
 

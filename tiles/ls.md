@@ -1,6 +1,6 @@
 ---
 layout: tiles
-title: tiles ls
+title: "tiles / tiles ls"
 nav: projects
 ---
 

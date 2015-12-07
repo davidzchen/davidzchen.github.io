@@ -1,7 +1,7 @@
 ---
 layout: default
 nav: about
-title: About
+title: "About"
 ---
 
 <div class="page-header">

@@ -1,6 +1,6 @@
 ---
 layout: tiles
-title: Home
+title: "tiles / Home"
 nav: projects
 ---
 
