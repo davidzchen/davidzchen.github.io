@@ -33,7 +33,7 @@ directory. The syntax of the `.tiles` file is as follows:
 
 ```python
 tmux_session(
-    name = "session-name,
+    name = "session-name",
     windows = [],
 )
 ```
