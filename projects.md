@@ -156,8 +156,7 @@ An easy tool for managing tmux sessions.
 
 <ul class="list-unstyled">
   <li>
-    <strong>Website</strong> <a href="http://davidzchen.com/tiles">
-      http://davidzchen.com/tiles</a>
+    <strong>Website</strong> <a href="/tiles">http://davidzchen.com/tiles</a>
   </li>
   <li>
     <strong>Repository</strong> <a href="https://github.com/davidzchen/tiles" target="_blank">
