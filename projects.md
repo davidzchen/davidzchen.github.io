@@ -179,8 +179,7 @@ and SAL annotations.
 
 ### jproperties.vim
 
-Vim C and C++ syntax highlighting extended with MSVC-specific types, keywords,
-and SAL annotations.
+Improved Vim syntax highlighting for Java Properties.
 
 <ul>
   <li>
