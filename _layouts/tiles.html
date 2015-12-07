@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+    <title>dzc / tiles / {{ page.title }}</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-content">
+        {% include title.html %}
+
+        <div class="blog-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-9">
+                {{ content }}
+              </div><!-- /.blog-main -->
+              <div class="col-sm-2 col-sm-offset-1 blog-sidebar">
+
+                <div class="sidebar-module">
+                  <h4>Tiles Documentation</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="/tiles/index.html">Home</a></li>
+                    <li><a href="/tiles/start.html">tiles start</a></li>
+                    <li><a href="/tiles/attach.html">tiles attach</a></li>
+                    <li><a href="/tiles/ls.html">tiles ls</a></li>
+                  </ul>
+                </div>
+
+                <div class="sidebar-module">
+                  <h4>Get Tiles</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="https://github.com/davidzchen/tiles">GitHub</a></li>
+                  </ul>
+                </div>
+
+              </div><!-- /.blog-sidebar -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.blog-wrapper -->
+
+      </div><!-- /.wrapper-content -->
+    </div><!-- /.wrapper -->
+
+    {% include footer.html %}
+  </body>
+</html>

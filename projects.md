@@ -1,16 +1,20 @@
 ---
 layout: default
 nav: projects
-title: dzc
+title: Projects
 ---
 
 <div class="page-header">
   <h1>Projects</h1>
 </div>
 
-Some of the open source projects that I am or have been involved with.
+Open source projects that I am or have been involved with.
 
-## Bazel
+## Contributions
+
+My contributions to open source projects.
+
+### Bazel
 
 Google's own build system.  Bazel has built-in support for building both client
 and server software, including apps for both Android and iOS, and provides an
@@ -29,7 +33,7 @@ Rust, D, Jsonnet, and Scala.
   </li>
 </ul>
 
-## Jsonnet
+### Jsonnet
 
 An elegant, formally-specified configuration generation language for JSON.
 
@@ -44,7 +48,7 @@ An elegant, formally-specified configuration generation language for JSON.
   </li>
 </ul>
 
-## Azkaban
+### Azkaban
 
 Open source workflow management and scheduling system with integrated tools for
 Apache Hadoop.
@@ -60,7 +64,7 @@ Apache Hadoop.
   </li>
 </ul>
 
-## Apache Samza
+### Apache Samza
 
 Distributed stream processing system using Apache Kafka for messaging and Apache
 Hadoop YARN for fault tolerance, processor isolation, security, and resource
@@ -81,7 +85,7 @@ management.
   </li>
 </ul>
 
-## Apache Tajo
+### Apache Tajo
 
 Distributed data warehouse system for Apache Hadoop designed for low-latency and
 scalable ad-hoc queries
@@ -101,7 +105,7 @@ scalable ad-hoc queries
   </li>
 </ul>
 
-## Apache Hive
+### Apache Hive
 
 Data warehouse system built on Apache Hadoop providing data management
 facilities a SQL-like query interface
@@ -121,7 +125,7 @@ facilities a SQL-like query interface
   </li>
 </ul>
 
-## Apache Parquet
+### Apache Parquet
 
 Columnar storage format for any project in the Hadoop ecosystem, agnostic of
 the choice of data processing framework or data model.
@@ -140,3 +144,48 @@ the choice of data processing framework or data model.
       https://github.com/apache/parquet</a>
   </li>
 </ul>
+
+## Tools, etc.
+
+Here are various tools that I made to make my life easier. They might make yours
+easier too.
+
+### Tiles
+
+An easy tool for managing tmux sessions.
+
+<ul class="list-unstyled">
+  <li>
+    <strong>Website</strong> <a href="http://davidzchen.com/tiles">
+      http://davidzchen.com/tiles</a>
+  </li>
+  <li>
+    <strong>Repository</strong> <a href="https://github.com/davidzchen/tiles" target="_blank">
+      https://github.com/davidzchen/tiles</a>
+  </li>
+</ul>
+
+### msvc.vim
+
+Vim C and C++ syntax highlighting extended with MSVC-specific types, keywords,
+and SAL annotations.
+
+<ul>
+  <li>
+    <strong>Repository</strong> <a href="https://github.com/davidzchen/msvc.vim" target="_blank">
+      https://github.com/davidzchen/msvc.vim</a>
+  </li>
+</ul>
+
+### jproperties.vim
+
+Vim C and C++ syntax highlighting extended with MSVC-specific types, keywords,
+and SAL annotations.
+
+<ul>
+  <li>
+    <strong>Repository</strong> <a href="https://github.com/davidzchen/jproperties.vim" target="_blank">
+      https://github.com/davidzchen/jproperties.vim</a>
+  </li>
+</ul>
+
