@@ -163,7 +163,6 @@ a {
     > li > a {
       width: 50%;
       padding: 25px 20px;
-      text-align: center;
       border: 0;
       border-radius: 0;
       color: $pager-link-color;
@@ -173,6 +172,25 @@ a {
         background-color: $pager-hover-bg-color;
         color: $pager-link-hover-color;
       }
+    }
+
+    .previous {
+      text-align: left;
+    }
+    .next {
+      text-align: right;
+    }
+
+    .pager-link-title {
+      display: block;
+      font-size: 16px;
+    }
+
+    .previous .pager-link {
+      padding-left: 22px;
+    }
+    .next .pager-link {
+      padding-right: 22px;
     }
   }
 }

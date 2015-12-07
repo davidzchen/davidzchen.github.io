@@ -32,12 +32,32 @@
             <div class="row">
               <div class="col-sm-12">
                 <ul class="pager">
+                  {% if page.previous %}
                   <li class="previous">
-                    <a href="{{ page.previous.url }}">&laquo; Previous</a>
+                    <a href="{{ page.previous.url }}">
+                      <span class="pager-link">
+                        Previous
+                      </span>
+                      <span class="pager-link-title">
+                        <span aria-hidden="true">&larr;</span>
+                        {{ page.previous.title }}
+                      </span>
+                    </a>
                   </li>
+                  {% endif %}
+                  {% if page.next %}
                   <li class="next">
-                    <a href="{{ page.next.url }}">Next &raquo;</a>
+                    <a href="{{ page.next.url }}">
+                      <span class="pager-link">
+                        Next
+                      </span>
+                      <span class="pager-link-title">
+                        {{ page.next.title }}
+                        <span aria-hidden="true">&rarr;</span>
+                      </span>
+                    </a>
                   </li>
+                  {% endif %}
                 </ul>
               </div>
             </div>

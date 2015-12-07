@@ -20,12 +20,22 @@
             <div class="row">
               <div class="col-sm-12">
                 <ul class="pager">
+                  {% if paginator.previous_page %}
                   <li class="previous">
-                    <a href="{{ paginator.previous_page_path }}">&laquo; Newer</a>
+                    <a href="{{ paginator.previous_page_path }}">
+                      <span aria-hidden="true">&larr;</span>
+                      Newer
+                    </a>
                   </li>
+                  {% endif %}
+                  {% if paginator.next_page %}
                   <li class="next">
-                    <a href="{{ paginator.next_page_path }}">Older &raquo;</a>
+                    <a href="{{ paginator.next_page_path }}">
+                      Older
+                      <span aria-hidden="true">&rarr;</span>
+                    </a>
                   </li>
+                  {% endif %}
                 </ul>
               </div>
             </div>
