@@ -22,8 +22,29 @@ Kernel at <a href="https://microsoft.com" target="_blank"> Microsoft</a>.
 ## Contact
 
 <ul class="list-unstyled">
-  <li><strong>Email</strong> <a href="mailto:david@davidzchen.com">david@davidzchen.com</a></li>
-  <li><strong>GitHub</strong> <a href="https://github.com/davidzchen" target="_blank">davidzchen</a></li>
-  <li><strong>Twitter</strong> <a href="https://twitter.com/finitybeyond" target="_blank">@finitybeyond</a></li>
-  <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/davidzchen" target="_blank">in/davidzchen</a></li>
+  <li>
+    <i class="fa fa-envelope"></i>
+    <strong>Email</strong>
+    <a href="mailto:david@davidzchen.com">david@davidzchen.com</a>
+  </li>
+  <li>
+    <i class="fa fa-github"></i>
+    <strong>GitHub</strong>
+    <a href="https://github.com/davidzchen" target="_blank">davidzchen</a>
+  </li>
+  <li>
+    <i class="fa fa-twitter"></i>
+    <strong>Twitter</strong>
+    <a href="https://twitter.com/finitybeyond" target="_blank">@finitybeyond</a>
+  </li>
+  <li>
+    <i class="fa fa-linkedin"></i>
+    <strong>LinkedIn</strong>
+    <a href="https://linkedin.com/in/davidzchen" target="_blank">in/davidzchen</a>
+  </li>
+  <li>
+    <i class="fa fa-instagram"></i>
+    <strong>Instagram</strong>
+    <a href="https://instagram.com/davidzchen" target="_blank">davidzchen</a>
+  </li>
 </ul>
