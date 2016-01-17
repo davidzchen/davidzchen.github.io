@@ -75,6 +75,13 @@ a {
   }
 }
 
+iframe {
+  border: 1px solid #ddd;
+  border-width: 1px;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
 .navbar {
   min-height: 64px;
 }
