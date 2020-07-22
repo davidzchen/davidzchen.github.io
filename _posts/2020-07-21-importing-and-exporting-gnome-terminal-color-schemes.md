@@ -49,7 +49,8 @@ Unnamed profile:
 
 [install-gnome-terminal]: {% post_url 2020-07-20-install-gnome-terminal-on-elementaryos %}
 
-![GNOME Terminal Unnamed profile](/assets/img/gnome-terminal-unnamed-profile.png)
+<img src="/assets/img/gnome-terminal-unnamed-profile.png" class="img-responsive"
+    alt="GNOME Terminal Unnamed profile">
 
 Similarly, running `dconf dump /org/gnome/terminal/legacy/profiles:/` returns
 no output.
@@ -89,7 +90,8 @@ dconf load /org/gnome/terminal/legacy/profiles:/:e27d087d-18c4-4b72-83be-c841035
 This command will import the profile's settings and will also immediately apply
 its settings and color scheme to any open terminal windows.
 
-![GNOME Terminal profile installed](/assets/img/gnome-terminal-profile-installed.png)
+<img src="/assets/img/gnome-terminal-profile-installed.png" class="img-responsive"
+    alt="GNOME Terminal profile installed">
 
 ## Exporting a GNOME Terminal Profile
 

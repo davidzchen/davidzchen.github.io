@@ -90,8 +90,8 @@ uncheck `default-show-menubar`:
 
 [dconf-editor]: https://wiki.gnome.org/Apps/DconfEditor
 
-![Uncheck default-show-menubar for GNOME Terminal in
-dconf-settings](/assets/img/gnome-terminal-dconf.png)
+<img src="/assets/img/gnome-terminal-dconf.png" class="img-responsive"
+    alt="Uncheck default-show-menubar for GNOME Terminal in dconf-settings">
 
 The menubar can be toggled by right clicking in the terminal window and
 selecting "Show Menubar" or via the F10 key.
