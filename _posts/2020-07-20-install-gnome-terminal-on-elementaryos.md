@@ -55,7 +55,7 @@ Make the following two changes:
 * Comment out or remove the line beginning with `OnlyShowIn`. This will add
   GNOME Terminal to Slingshot.
 
-```cfg
+```ini
 [Desktop Entry]
 Name=GNOME Terminal  # <-- Change to GNOME Terminal
 Comment=Use the command line
@@ -110,7 +110,7 @@ sudo vi /usr/share/contractor/gnome-terminal.contract
 
 Add the following:
 
-```cfg
+```ini
 [Contractor Entry]
 Name=Open GNOME Terminal Here
 Icon=

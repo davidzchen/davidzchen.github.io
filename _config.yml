@@ -1,6 +1,9 @@
 name: David Z. Chen
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 sass:
   sass_dir: _sass
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
