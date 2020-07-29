@@ -37,5 +37,4 @@ Kernel at <a href="https://microsoft.com" target="_blank"> Microsoft</a>.
     <strong>LinkedIn</strong>
     <a href="https://linkedin.com/in/davidzchen" target="_blank">in/davidzchen</a>
   </li>
-  </li>
 </ul>
