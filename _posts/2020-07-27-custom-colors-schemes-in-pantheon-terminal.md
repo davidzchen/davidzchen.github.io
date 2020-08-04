@@ -72,7 +72,7 @@ colors in this range correspond to the following:
 
 Thus, the `palette` setting takes a string of the following format:
 
-```
+```bash
 "$BLACK:$RED:$GREEN:$ORANGE:$BLUE:$MAGENTA:$CYAN:$WHITE:$BR_BLACK:$BR_RED:$BR_GREEN:$BR_ORANGE:$BR_BLUE:$BR_MAGENTA:$BR_CYAN:$BR_WHITE"
 ```
 
